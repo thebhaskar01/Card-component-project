@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class=" order-summary">
+    <div class="card-image">
+      <img src="images/illustration-hero.svg" alt="">
+    </div>
+    <div class="card-description">
+      <h3>Order Summary</h3>
+
+      <p class="explaination">You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!</p>
+
+
+        <div class="subscription flexbox d-flex bd-highlight">
+          <div class="p-2 flex-fill bd-highlight"><img src="images/icon-music.svg" alt="" class="icon"></div>
+          <div class="plan-detail flex-grow-1 p-2 flex-fill bd-highlight">
+            <p>
+              <span>Annual Plan</span>
+              <br><span id="price">$59.99/year</span>
+            </p>
+          </div>
+          <div class="change ml-auto p-2 flex-fill bd-highlight">
+            <p><a href=""></a>Change</p>
+          </div>
+        </div>
+
+      <button type="button" class="payment-btn btn btn-primary btn-lg btn-block">Proceed to Payment</button>
+      <p>
+        Cancel Order
+      </p>
+
+    </div> <!-- Card description -->
+
+  </div>
+
+</body>
+
+</html>
